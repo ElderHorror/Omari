@@ -9,7 +9,6 @@ body {
   margin: 0px;
 }
 
-
 a {
   padding-right: 30px;
   font-size: 13px;
@@ -132,7 +131,7 @@ a {
   border-radius: 14px;
   position: absolute;
   top: 70%;
-  right: 14vw;
+  right: 4vw;
   border: 1px solid black;
   color: rgba(0, 0, 0, 1);
   font-weight: 500;
@@ -149,7 +148,6 @@ a {
   border: 1px solid white;
 }
 
-
 .navBar {
   display: flex;
   flex-direction: row;
@@ -157,9 +155,11 @@ a {
   justify-content: space-between;
   width: 100%;
   height: 50px;
-  background: linear-gradient(270deg,
-      rgba(0, 0, 0, 0.5) -37.29%,
-      rgba(0, 0, 0, 0.1) 100%);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.5) -37.29%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -170,57 +170,62 @@ a {
   height: 30px;
 }
 
-@media screen and (max-width: 700px) {
-  .contactUsDiv{
+/* Smartphones */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contactUsDiv {
     width: 90%;
     height: auto;
+    margin-left: 5.4%;
+    margin-top: 6%;
   }
 
-  .ContentDiv{
+  .ContentDiv {
     width: 80%;
     height: auto;
     margin-top: 20%;
-  } 
+  }
 
-  .contactUsTitle{
+  .contactUsTitle {
     font-size: 25px;
     padding-bottom: 10px;
   }
 
-  .contactUsContent{
+  .contactUsContent {
     font-size: 18px;
     text-align: center;
     padding-bottom: 20px;
   }
 
-  .inputs{
+  .inputs {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .inputA,.inputB{
+  .inputA,
+  .inputB {
     width: 50%;
     margin: 0px;
   }
 
-  .inputA{
+  .inputA {
     margin-bottom: 25px;
   }
 
-  .inputC{
+  .inputC {
     width: 80%;
     margin-left: 7%;
   }
 
-  .allInputs{
+  .allInputs {
     width: 100%;
     margin-bottom: 30px;
   }
-  
-  .Send{
-    display: none;
+
+  .Send {
+    margin-top: 36%;
+    width: 16%;
+    height: 6%;
   }
-
-
 }

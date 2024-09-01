@@ -268,8 +268,139 @@ a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .txtDiv {
+    margin-top: 25%;
+  }
 
-@media screen and (max-width: 700px) {
+  .txt1 {
+    font-size: 18px;
+  }
+
+  .txt2 {
+    font-size: 9px;
+  }
+
+  body {
+    background-size: 100% 12%;
+  }
+
+  .mission-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+  }
+
+  .misHeading {
+    text-align: center;
+    margin-top: 4%;    
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  .misTxt {
+    /* line-height: 24px; */
+    font-size: 14px;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 8%;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contentIllustration {
+    width: 100%;
+  }
+
+  .contentTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .contentTxt1 {
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  .contentTxt2 {
+    width: 80%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  .landingImage {
+    width: 90%;
+    margin-left: 4.4%;
+    margin-bottom: 4%;
+  }
+
+  .Article {
+    margin-left: 5.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .articleImage {
+    height: 300px;
+    width: 280px;
+    margin-left: 6%;
+  }
+
+  .articleDiv {
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+  }
+
+  .copyrightTxt {
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .dropdown{
+    width: 10%;
+  }
+
+  .dropbtn{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .navbarLogo {
+    position: relative;
+    left: 72vw;
+  }
+
+  .navBar{
+    display: none;
+  }
+}
+
+
+/* @media screen and (max-width: 700px) {
   .txtDiv {
     margin: 30% 0px 0px 0px;
   }
@@ -309,7 +440,7 @@ a:hover {
 
 @media screen and (max-width: 700px) and (min-width: 500px) {
   .txtDiv {
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   .misHeading {
@@ -477,4 +608,4 @@ a:hover {
   body {
     background-size: 100% 13%;
   }
-}
+} */
